@@ -2,10 +2,10 @@ import React from 'react';
 
 const Nav = () => {
   return (
-    <div>
-      <a>link</a>
-      <a>link</a>
-      <a>link</a>
+    <div className='nav'>
+      <a>About</a>
+      <a>Projects</a>
+      <a>Contact</a>
     </div>
   );
 };
