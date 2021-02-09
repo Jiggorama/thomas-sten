@@ -41,9 +41,13 @@ const Projects = () => {
         {projects.map(project => {
           return (
             <div className='project-card'>
-              <h5>{project.name}</h5>
-
-
+              <h5 className='project-name'>{project.name}</h5>
+              <img className='project-image' src={project.image} alt="" />
+              <div className='description'>{project.description}</div>
+              <div className='project-links'>
+                <a href={project.url}>Live Site</a>
+                <a href={project.github}>GitHub</a>                
+              </div>
             </div>
           )
         })}

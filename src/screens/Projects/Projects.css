@@ -1,0 +1,39 @@
+.projects{
+  width: 100%;
+  color: #333333;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.projects h3{
+  font-size: 3rem;
+}
+
+.project-container{
+display: flex;
+justify-content: space-evenly;
+}
+
+.project-card{
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-name{
+
+}
+
+.project-image{
+  width: 280px;
+  height: 200px;
+}
+
+.description{
+
+}
+
+.project-links{
+
+}
