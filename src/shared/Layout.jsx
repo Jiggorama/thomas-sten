@@ -4,9 +4,9 @@ import './Layout.css'
 
 const Layout = (props) => {
   return (
-    <div className='Layout'>
+    <div className='layout'>
       <header>
-        <h1 className='logo'>Thomas Sten</h1>
+        <h1 className='logo'>TES</h1>
         <Nav/>
       </header>
       <div className='layout-children'>

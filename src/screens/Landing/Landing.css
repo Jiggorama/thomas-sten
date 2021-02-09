@@ -1,0 +1,22 @@
+.landing{
+background-image: url('../../assets/casey-horner-unsplash.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.name{
+font-size: 2.5rem;
+color: #aaaaaa;
+}
+
+.subtext{
+font-size: 2rem;
+color: #aaaaaa;
+align-self: center;
+}
