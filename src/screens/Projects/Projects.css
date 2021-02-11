@@ -1,17 +1,27 @@
 .projects{
   width: 100%;
-  color: #333333;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
 }
 
 .projects h3{
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px .1em #ec8484;
+  color: #333333;
 }
 
 .project-container{
 display: flex;
+flex-flow: row wrap;
 justify-content: space-evenly;
+flex: 2;
+margin-top: 3em;
+margin-bottom: 3em;
 }
 
 .project-card{
@@ -19,21 +29,52 @@ justify-content: space-evenly;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #333333;
+  color: #ededed;
+  position: relative;
+  border-radius: 10px;
 }
 
 .project-name{
-
+position: absolute;
+top: 3%;
+font-size: 2em;
+text-shadow: 2px 2px .1em #000000;
 }
 
 .project-image{
+  margin-top: 1rem;
   width: 280px;
   height: 200px;
 }
 
 .description{
-
+  padding: 1.5em;
+  font-size: 1.2em;
+  padding-bottom: 3em;
 }
 
 .project-links{
+  position: absolute;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  bottom: 3%;
+}
 
+.project-links a{
+  color: #ededed;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+@media only screen and (max-width: 1265px){
+  .project-card{
+    margin: 1em;
+  }
+}
+@media only screen and (max-width: 475px){
+  .projects h3{
+    font-size: 3em;
+  }
 }

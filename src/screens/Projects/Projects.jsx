@@ -13,7 +13,7 @@ const Projects = () => {
     {
       name: 'Wanderin\' Bard',
       image: 'https://i.imgur.com/v5XhBGs.png',
-      description: 'Wanderin\' Bard is a full stack mock ecommerce site built with the MERN(MongoDB, Express, React, Node) technology stack. The site sells interesting instruments from around the world. This was a collaborative project built in a git flow team enviroment using github. The site has full crud and incorporates user auth to provide the capabilties of an ecommerce site admin managing the stores products.',
+      description: 'Wanderin\' Bard is a full stack mock ecommerce site built with the MERN(MongoDB, Express, React, Node) technology stack. This was a collaborative project built in a git flow team enviroment using github. The site has full crud and incorporates user auth to provide the capabilties of an ecommerce site admin managing the stores products.',
       url: 'https://jovial-meitner-83abc5.netlify.app/',
       github: 'https://github.com/info2amy/Wanderin-Bard'
     },
@@ -45,8 +45,8 @@ const Projects = () => {
               <img className='project-image' src={project.image} alt="" />
               <div className='description'>{project.description}</div>
               <div className='project-links'>
-                <a href={project.url}>Live Site</a>
-                <a href={project.github}>GitHub</a>                
+                <a href={project.url} target='_blank'rel="noopener noreferrer">Live Site</a>
+                <a href={project.github} target='_blank'rel="noopener noreferrer">GitHub</a>                
               </div>
             </div>
           )

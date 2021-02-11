@@ -1,28 +1,57 @@
 .about{
 width: 100%;
+height: auto;
 display: flex;
 flex-direction: column;
 background-color: #333333;
 padding-top: 2em;
-padding-bottom: 2em;
+text-align: center;
 }
 
 .about h3{
-font-size: 3rem;
-color: #ededed
+font-size: 4rem;
+font-weight: bold;
+color: #ededed;
+text-shadow: 2px 2px .1em #000000;
 }
 
 .info-container{
 display: flex;
+
+flex: 2;
+margin-top: 2em;
+margin-bottom: 2em;
 }
 
 .info{
-width: 50%;
-color: #ededed
+width: 60%;
+color: #ededed;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.text{
+width: 70%;
+font-size: 1.6em;
+margin-top: 1.2em;
+}
+.info h4{
+  margin: .5em;
+  margin-top: 1em;
+  font-size: 3em;
+}
+.skills{
+  font-size: 1.4em;
+  line-height: 1.2em;
+  width: 80%;
 }
 
 .image{
-width: 50%;
+width: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .me{
@@ -30,5 +59,27 @@ width: 50%;
   width: 300px;
   border-radius: 100px;
   object-position: center;
-/* object-fit: cover; */
+  box-shadow: .2em .2em .6em #ec8484;
+
+}
+
+@media only screen and (max-width: 720px){
+  .info-container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .info{
+    width: 100%;
+  }
+  .text{
+    font-size: 1.1em;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 475px){
+  .about h3{
+    font-size: 3em;
+  }
 }

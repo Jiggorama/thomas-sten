@@ -2,17 +2,38 @@
   height: 100%;
   min-height: 100vh;
   width: 100%;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   background-color: #ededed;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .layout header{
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-background-color: #ededed;
-color: #333333;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #ededed;
+  color: #333333;
+  width: 100%;
+  height: 4em;
+  padding-bottom: 1em;
+  z-index: 2;
+}
+
+.layout a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.layout a:hover{
+  color: #097fee;
+  transform: scale(1.2);
+  transition: all 0.4s ease;
 }
 
 .logo{
@@ -28,13 +49,48 @@ margin-left: 1rem;
   position: relative;
   align-self: center;
   width: 95%;
+  padding-bottom: 10em;
 }
 
 .nav{
-font-size: 1.5rem;
-
+  display: flex;
+  flex-wrap: wrap;
 }
-
 .nav a{
-margin-right: 1rem;
+  font-size: 1.5em;
+  margin-right: 1.5rem;
+  color: #333333;
 }
+
+.nav a:hover{
+  transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 620px){
+  .nav a{
+    font-size: 1.2em;
+    margin-right: .5rem;
+  }
+  .layout header{
+    height: auto;
+  }
+}
+@media only screen and (max-width: 475px){
+  .nav{
+    flex-direction: column;
+  }
+}
+/* turn on after contact form complete */
+/* .nav > .active{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+}
+
+@keyframes bounce-1 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+} */
