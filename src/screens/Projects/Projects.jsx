@@ -20,7 +20,7 @@ const Projects = () => {
     {
       name: 'Muscle-Masons',
       image: 'https://i.imgur.com/GtMsRgL.png',
-      description: 'Muscle-Masons is an interactive fitness app built with React and Airtable.com. The app allows users to view and update a collection of exercises which can be added to a personalized workout routine.  All styling for Muscle-Masons was done useing TailwindsCSS.',
+      description: 'Muscle-Masons is an interactive fitness app built with React and Airtable.com. The app allows users to view and update a collection of exercises which can be added to a personalized workout routine.  All styling for Muscle-Masons was done using TailwindsCSS.',
       url: 'https://muscle-masons.netlify.app/',
       github: 'https://github.com/Jiggorama/Muscle-Masons'
     },
