@@ -16,12 +16,12 @@ justify-content: center;
   align-self: center;
   padding: 3em;
   text-align: center;
-  background-color: #33333369;
+  background-color: #aaaaaa69;
   border-radius: 75px;
 }
 .name{
 font-size: 5rem;
-color: #aaaaaa;
+color: #222222;
 align-self: center;
 margin-bottom: 1em;
 text-shadow: 2px 2px .1em #000000;
@@ -29,7 +29,7 @@ text-shadow: 2px 2px .1em #000000;
 
 .subtext{
 font-size: 3rem;
-color: #aaaaaa;
+color: #222222;
 align-self: center;
 text-shadow: 2px 2px .1em #000000;
 }
