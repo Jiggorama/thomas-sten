@@ -28,7 +28,7 @@ const Projects = () => {
       name: 'DnD-Character-Creator',
       image: 'https://i.imgur.com/ZLMKdYZ.png',
       description: 'A simple application that allows a user to create a charecter for the famous role-playing game Dungeons and Dragons. The user will select a race followed by a class and then see a preview of the charecter they have created with relevent attributes and abilities. Built with vanilla HTML, CSS, Javascript',
-      url: 'https://jiggorama.github.io/DnD-Character-Creator/',
+      url: 'https://thomassten.github.io/DnD-Character-Creator/',
       github: 'https://github.com/thomassten/DnD-Character-Creator'
     }
   ]
