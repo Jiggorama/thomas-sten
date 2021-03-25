@@ -8,7 +8,7 @@ const Projects = () => {
       image: "https://i.imgur.com/n4rBWSz.png",
       description: 'Camp Connect is a campsite tracking tool for Green Ridge state forest in Flinstone MD. Users can track campsites visited and leave comments for each specific campsite. This app utilizes Ruby on Rails to power the backend and React for the frontend.  Camp-connect also incorporates the Material-UI component library.',
       url: "https://camp-connect.netlify.app/",
-      github: 'https://github.com/Jiggorama/Camp-Connect'
+      github: 'https://github.com/thomassten/Camp-Connect'
     },
     {
       name: 'Wanderin\' Bard',
@@ -22,14 +22,14 @@ const Projects = () => {
       image: 'https://i.imgur.com/GtMsRgL.png',
       description: 'Muscle-Masons is an interactive fitness app built with React and Airtable.com. The app allows users to view and update a collection of exercises which can be added to a personalized workout routine.  All styling for Muscle-Masons was done using TailwindsCSS.',
       url: 'https://muscle-masons.netlify.app/',
-      github: 'https://github.com/Jiggorama/Muscle-Masons'
+      github: 'https://github.com/thomassten/Muscle-Masons'
     },
     {
       name: 'DnD-Character-Creator',
       image: 'https://i.imgur.com/ZLMKdYZ.png',
       description: 'A simple application that allows a user to create a charecter for the famous role-playing game Dungeons and Dragons. The user will select a race followed by a class and then see a preview of the charecter they have created with relevent attributes and abilities. Built with vanilla HTML, CSS, Javascript',
       url: 'https://jiggorama.github.io/DnD-Character-Creator/',
-      github: 'https://github.com/Jiggorama/DnD-Character-Creator'
+      github: 'https://github.com/thomassten/DnD-Character-Creator'
     }
   ]
 
